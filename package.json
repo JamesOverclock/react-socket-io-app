@@ -1,0 +1,19 @@
+{
+    "name": "react-socket-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "client-install": "cd client && npm install",
+        "client": "cd client && npm start",
+        "server-install": "cd server && npm install",
+        "server": "cd server && npm start",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^5.1.0"
+    }
+}
